@@ -33,44 +33,44 @@ body{
 .container{
   background-color: hsla(var(--container-bg-color), .65);
   border-radius: 2rem;
-  display: hidden;
-  height: 630px;
-  padding: 2.5rem;
-  width: min(85%, 640px);
+  height: auto;
+  padding: 2rem;
+  width: 320px;
 }
 
 .container .rated .img-container{
   background-color: hsla(var(--container-bg-color), 1);
   border-radius: 50%;
-  margin-bottom: 2.5rem;
-  padding: 1rem;
+  margin-bottom: 1.5rem;
+  padding: .85rem;
   width: fit-content;
 }
 
 .container .rated .img-container img{
   display: block;
-  width: 1.75rem;
+  width: .9rem;
 }
 
 .container .rated h1{
   color: hsla(var(--white), .9);
   font-family: var(--ff);
-  font-size: 3rem;
+  font-size: 1.45rem;
   font-weight: var(--fw-large);
-  margin-bottom: 2rem;
+  margin-bottom: .75rem;
 }
 
 .container .rated p{
-  color: hsla(var(--white), .5);
+  color: hsla(var(--white), .4);
   font-family: var(--ff);
-  font-size: 1.75rem;
+  font-size: .8rem;
   font-weight: var(--fw-small);
-  margin-bottom: 2.75rem;
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
 }
 
 .rated .rating-container{
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   justify-content: space-evenly;
 }
 
@@ -79,10 +79,10 @@ body{
   border-radius: 50%;
   color: hsla(var(--light-grey), 1);
   font-family: var(--ff);
-  font-size: 1.65rem;
+  font-size: .85rem;
   font-weight: var(--fw-small);
-  margin-bottom: 3rem;
-  padding: 1.52rem 2rem;
+  margin-bottom: 1.75rem;
+  padding: .6rem .9rem;
   text-align: center;
 }
 .rated .rating:hover{
@@ -97,10 +97,10 @@ body{
   border-radius: 5rem;
   color: hsla(var(--white), .8);
   font-family: var(--ff);
-  font-size: 1.75rem;
+  font-size: .85rem;
   font-weight: var(--fw-large);
-  letter-spacing: .25rem;
-  padding-block: 1.5rem;
+  letter-spacing: .15rem;
+  padding-block: .65rem;
   width: 100%;
 }
 
@@ -116,38 +116,38 @@ body{
 }
 .container .thanks img{
   display: block;
-  height: 12em;
-  margin-bottom: 3rem;
+  height: 5.5em;
+  margin-bottom: 1rem;
   margin-inline: auto;
 }
 .container .thanks .text{
-  background-color: hsla(var(--container-bg-color), 1);
+  background-color: hsla(var(--container-bg-color), .6);
   border-radius: 2rem;
   color: hsla(var(--main-color), .65);
   font-family: var(--ff);
-  font-size: 1.5rem;
+  font-size: .725rem;
   font-weight: var(--fw-small);
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   margin-inline: auto;
   padding-block: .5rem;
   text-align: center;
-  width: 60%;
+  width: 65%;
 }
 
 .container .thanks p:first-of-type{
   color: hsla(var(--white), 1);
   font-family: var(--ff);
-  font-size: 3rem;
-  font-weight: var(--fw-small);
-  margin-bottom: 2.75rem;
+  font-size: 1.4rem;
+  font-weight: var(--fw-large);
+  margin-bottom: .75rem;
   text-align: center;
 }
 
 
 .container .thanks p:last-of-type{
-  color: hsla(var(--white), .5);
+  color: hsla(var(--white), .45);
   font-family: var(--ff);
-  font-size: 1.75rem;
+  font-size: .75rem;
   font-weight: var(--fw-small);
   line-height: 1.4;
   text-align: center;
