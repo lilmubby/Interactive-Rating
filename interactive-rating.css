@@ -35,7 +35,7 @@ body{
   border-radius: 2rem;
   height: auto;
   padding: 2rem;
-  width: 320px;
+  width: min(90%, 320px);
 }
 
 .container .rated .img-container{
